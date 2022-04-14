@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Churrascômetro</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <!-- Titulo do container -->
+        <h1>Churrascômetro</h1>
+        <p id="intro">Faça o cálculo do seu churrasco, evite o desperdicio!</p>
+
+        <!-- Dados para ser inseriodos -->
+        <input type="number" name="" id="adultos" placeholder="Adultos" min="1" required>
+        <input type="number" name="" id="criancas" placeholder="Crianças" min="0"required>
+        <input type="number" name="" id="duracao" placeholder="Duração\hrs" min="1"required>
+        
+        <!-- Botão calcular -->
+        <br>
+        <button onclick="calcular()">Calcular</button>
+
+        <div id="conteudosjs">
+            <p id="usuario"></p>
+            <p id="carnes"></p>
+            <p id="cerva"></p>
+            <p id="refri"></p>
+
+        </div>
+
+    </div>
+
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>

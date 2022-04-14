@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+body{
+    background-image: url(https://wallpapercave.com/wp/wp7738824.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#container{
+    max-width: 300px;
+    margin: auto;
+    background-color: #ffffff90;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 100px;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+    font-family: 'Square peg';
+    text-shadow: 3px 3px 5px rgb(255, 255, 255);
+    color: #160e0e;
+}
+#intro{
+    color: #160e0e;
+    font-size: 35px;
+    font-family: 'Square peg';
+    background-color: #3a262602;
+    text-shadow: 3px 3px 5px rgb(255, 255, 255);
+    
+}
+input{
+    text-align: center;
+    margin: 5px;
+    width: 120px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #ffffff80;
+    font-weight: bold;
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+button{
+    margin-top: 10px;
+    width: 120px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #ffffff80;
+    font-weight: bold;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+}
+button:hover{
+    transition: 0.5s;
+    background-color: #b11f1f80;
+}
+#conteudosjs{
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Updock';
+    background-color: #3a262602;
+    text-shadow: 3px 3px 6px rgb(0, 0, 0);
+    text-shadow: 3px 3px 7px rgb(255, 255, 255);
+}
